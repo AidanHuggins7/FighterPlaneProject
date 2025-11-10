@@ -29,9 +29,8 @@ public class Glider : MonoBehaviour
 
         if (transform.position.y >= gameManager.verticalScreenSize * 6.5f || transform.position.y <= -gameManager.verticalScreenSize * 6.5f)
             transform.Translate(Vector3.right * speed * Time.deltaTime);
-        }
 
-        if (transform.position.x >= gameManager.horizontalScreenSize * 10f || transform.position.x <= -gameManager.verticalScreenSize * 10f)
+        if (transform.position.x >= gameManager.horizontalScreenSize* 10f || transform.position.x <= -gameManager.verticalScreenSize* 10f)
         {
             Destroy(this.gameObject);
         }
