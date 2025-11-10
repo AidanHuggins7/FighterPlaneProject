@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
     
     void CreateSecondEnemy()
     {
-        Instantiate(enemyTwoPrefab, new Vector3(-horizontalScreenSize, Random.Range(-verticalScreenSize, verticalScreenSize / 2), 0), Quaternion.identity);
+        Instantiate(enemyTwoPrefab, new Vector3(-horizontalScreenSize, Random.Range(-verticalScreenSize, verticalScreenSize / 2) * 0.5f, 0), Quaternion.identity);
     }
 
     void CreateSky()

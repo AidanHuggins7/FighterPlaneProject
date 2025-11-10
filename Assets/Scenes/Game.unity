@@ -150,10 +150,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 6465214131589529892, guid: 2946f3eb6029d8a40b20e03adb96e4fa, type: 3}
   enemyOnePrefab: {fileID: 8729755512266785908, guid: 57d7aa5182902e24cb707961f14f52d5, type: 3}
+  enemyThreePrefab: {fileID: 8729755512266785908, guid: b3e3b359b3f3ccf4497f9d467bfa7561, type: 3}
   enemyTwoPrefab: {fileID: 8729755512266785908, guid: adbe5835a23181040ab2d0506b27ac35, type: 3}
   cloudPrefab: {fileID: 8901978872678414076, guid: 14dd4fa52784c904e83c0650f3eea560, type: 3}
   livesText: {fileID: 999943548}
-  scoreText: {fileID: 873212796}
+  scoreText: {fileID: 0}
   horizontalScreenSize: 10
   verticalScreenSize: 6.5
   score: 0
