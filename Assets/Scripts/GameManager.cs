@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject playerPrefab;
 
     public GameObject enemyOnePrefab;
+    public GameObject enemyThreePrefab;
     public GameObject enemyTwoPrefab;
     public GameObject cloudPrefab;
 
@@ -24,10 +25,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        horizontalScreenSize = 10f;
+        verticalScreenSize = 6.5f;
         score = 0;
         Instantiate(playerPrefab, transform.position, Quaternion.identity);
         CreateSky();
         InvokeRepeating("CreateEnemy", 1, 3);
+        InvokeRepeating("CreateThirdEnemy", 2, 3);
         InvokeRepeating("CreateSecondEnemy", 2, 3);
     }
 
@@ -42,6 +46,9 @@ public class GameManager : MonoBehaviour
         Instantiate(enemyOnePrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.9f, verticalScreenSize, 0), Quaternion.Euler(180, 0, 0));
     }
 
+    void CreateThirdEnemy()
+    {
+        Instantiate(enemyThreePrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.9f, -verticalScreenSize, 0), Quaternion.identity);
         void CreateSecondEnemy()
     {
         Instantiate(enemyTwoPrefab, new Vector3(-horizontalScreenSize, Random.Range(-verticalScreenSize, verticalScreenSize / 2), 0), Quaternion.identity);

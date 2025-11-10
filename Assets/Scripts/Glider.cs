@@ -19,11 +19,15 @@ public class Glider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (goingUp)
+        if (goingUp == false)
+        {
+            transform.Translate(Vector3.down * speed * Time.deltaTime);
+        } else if (goingUp == true)
         {
             transform.Translate(Vector3.up * speed * Time.deltaTime);
-        } else if (goingUp == false)
-        {
+        }
+
+        if (transform.position.y >= gameManager.verticalScreenSize * 6.5f || transform.position.y <= -gameManager.verticalScreenSize * 6.5f)
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
 
