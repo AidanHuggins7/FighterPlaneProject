@@ -24,10 +24,10 @@ public class Glider : MonoBehaviour
             transform.Translate(Vector3.up * speed * Time.deltaTime);
         } else if (goingUp == false)
         {
-            transform.Translate(Vector3.down * speed * Time.deltaTime);
+            transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
 
-        if (transform.position.y >= gameManager.verticalScreenSize * 1.25f || transform.position.y <= -gameManager.verticalScreenSize * 1.25f)
+        if (transform.position.x >= gameManager.horizontalScreenSize * 10f || transform.position.x <= -gameManager.verticalScreenSize * 10f)
         {
             Destroy(this.gameObject);
         }
