@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        horizontalScreenSize = 10f;
+        verticalScreenSize = 6.5f;
         score = 0;
         Instantiate(playerPrefab, transform.position, Quaternion.identity);
         CreateSky();
