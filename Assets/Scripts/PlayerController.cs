@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
@@ -34,8 +35,6 @@ public class PlayerController : MonoBehaviour
 
     public void LoseALife()
     {
-        //lives = lives - 1;
-        //lives -= 1;
         lives--;
         gameManager.ChangeLivesText(lives);
         if (lives == 0)
@@ -43,6 +42,17 @@ public class PlayerController : MonoBehaviour
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
+    }
+
+    public void GainALife()
+    {
+        lives++;
+        gameManager.AddScore(1);
+        if (lives > 3)
+        {
+            lives = 3;
+        }
+        gameManager.ChangeLivesText(lives);
     }
 
     void Shooting()

@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "FighterPlaneProject-main.slnx"
+    "dotnet.defaultSolution": "FighterPlaneProject.slnx"
 }
