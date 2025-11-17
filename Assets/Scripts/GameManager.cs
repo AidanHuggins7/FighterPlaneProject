@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
         horizontalScreenSize = 10f;
         verticalScreenSize = 6.5f;
         score = 0;
+        AddScore(0);
         Instantiate(playerPrefab, transform.position, Quaternion.identity);
         CreateSky();
         InvokeRepeating("CreateEnemy", 1, 3);
@@ -66,15 +67,17 @@ public class GameManager : MonoBehaviour
     }
     public void AddScore(int earnedScore)
     {
-        score += earnedScore;
+        score = score + earnedScore;
+        scoreText.text = "Score: " + score;
     }
 
     public void ChangeLivesText(int currentLives)
     {
         livesText.text = "Lives: " + currentLives;
     }
-    public void ChangeScoreText (int score)
+
+    public void ChangeScoreText(int score)
     {
-        scoreText.text = "Score: " + score;
+        livesText.text = "Score: " + score;
     }
 }

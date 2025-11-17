@@ -1,33 +1,113 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/aahug/Documents/FighterPlaneProject/Packages/manifest.json
+    m_FilePath: C:/Users/Czeslaw Ichinu/Downloads/UCF/Y3/DIG 3480/FighterPlaneProject/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638983466175084053
-    m_Hash: 3689496845
+      ticks: 638989350536076760
+    m_Hash: 1065237407
   m_LockFileStatus:
-    m_FilePath: C:/Users/aahug/Documents/FighterPlaneProject/Packages/packages-lock.json
+    m_FilePath: C:/Users/Czeslaw Ichinu/Downloads/UCF/Y3/DIG 3480/FighterPlaneProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638983466231413959
-    m_Hash: 3929191513
+      ticks: 638989350536081761
+    m_Hash: 75828898
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/aahug/Documents/FighterPlaneProject/Packages
+m_ProjectPath: C:/Users/Czeslaw Ichinu/Downloads/UCF/Y3/DIG 3480/FighterPlaneProject/Packages
 m_EditorVersion: 6000.2.9f1 (e0c4e791ab71)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 331abd9a1e2ff424a1ef2626e16936071ab7ce3d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2019.2.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.collab-proxy@2.10.0
   testable: 0
   isDirectDependency: 1
   version: 2.10.0
   source: 1
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -220,7 +300,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -331,7 +411,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -427,7 +507,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -625,7 +705,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.ugui@7056cb05de4c
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.ugui@7056cb05de4c
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -721,7 +801,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.8
   source: 1
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.visualscripting@b4d700247d4b
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.visualscripting@b4d700247d4b
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -3614,7 +3694,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.25
   source: 1
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3728,7 +3808,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3859,7 +3939,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3948,7 +4028,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4045,7 +4125,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.test-framework@d97b7cd61ded
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.test-framework@d97b7cd61ded
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4135,7 +4215,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4270,7 +4350,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4359,7 +4439,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\aahug\Documents\FighterPlaneProject\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\Czeslaw Ichinu\Downloads\UCF\Y3\DIG 3480\FighterPlaneProject\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
