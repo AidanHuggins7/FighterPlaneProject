@@ -45,6 +45,17 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void GainALife()
+    {
+        lives++;
+        if (lives > 3)
+        {
+            lives = 3;
+            gameManager.AddScore(1);
+        }
+        gameManager.ChangeLivesText(lives);
+    }
+
     void Shooting()
     {
         if(Input.GetKeyDown(KeyCode.Space))

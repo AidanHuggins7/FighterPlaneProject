@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public GameObject enemyThreePrefab;
     public GameObject enemyTwoPrefab;
     public GameObject cloudPrefab;
+    public GameObject healthPrefab;
 
     public TextMeshProUGUI livesText;
     public TextMeshProUGUI scoreText;
@@ -31,8 +32,10 @@ public class GameManager : MonoBehaviour
         Instantiate(playerPrefab, transform.position, Quaternion.identity);
         CreateSky();
         InvokeRepeating("CreateEnemy", 1, 3);
-        InvokeRepeating("CreateThirdEnemy", 2, 3);
-        InvokeRepeating("CreateSecondEnemy", 2, 3);
+        InvokeRepeating("CreateThirdEnemy", 3, 2);
+        InvokeRepeating("CreateSecondEnemy", 3, 2);
+        InvokeRepeating("CreateSecondEnemy", 3, 2);
+        InvokeRepeating("CreateHealth", 1, 5);
     }
 
     // Update is called once per frame
@@ -56,6 +59,11 @@ public class GameManager : MonoBehaviour
         Instantiate(enemyTwoPrefab, new Vector3(-horizontalScreenSize, Random.Range(-verticalScreenSize, verticalScreenSize / 2) * 0.5f, 0), Quaternion.identity);
     }
 
+    void CreateHealth()
+    {
+        Instantiate(healthPrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.9f, verticalScreenSize, 0), Quaternion.identity);
+    }
+
     void CreateSky()
     {
         for (int i = 0; i < 30; i++)
@@ -72,9 +80,5 @@ public class GameManager : MonoBehaviour
     public void ChangeLivesText(int currentLives)
     {
         livesText.text = "Lives: " + currentLives;
-    }
-    public void ChangeScoreText (int score)
-    {
-        scoreText.text = "Score: " + score;
     }
 }
