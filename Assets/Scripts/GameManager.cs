@@ -75,4 +75,9 @@ public class GameManager : MonoBehaviour
     {
         livesText.text = "Lives: " + currentLives;
     }
+
+    public void ChangeScoreText(int score)
+    {
+        livesText.text = "Score: " + score;
+    }
 }
