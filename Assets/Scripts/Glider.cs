@@ -20,7 +20,7 @@ public class Glider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (goingUp == false)
+        if (goingUp)
         {
             transform.Translate(Vector3.up * speed * Time.deltaTime);
         }
