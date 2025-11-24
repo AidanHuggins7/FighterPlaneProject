@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
         if(whatDidIHit.tag == "Powerup")
         {
             Destroy(whatDidIHit.gameObject);
-            int whichPowerup = Random.Range(1, 4);
+            int whichPowerup = Random.Range(1, 5);
             gameManager.PlaySound(1);
             switch (whichPowerup)
             {
@@ -170,9 +170,9 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(transform.position.x * -1, transform.position.y, 0);
         }
 
-        if (transform.position.y <= -verticalScreenSize || transform.position.y > verticalScreenSize)
+        if (transform.position.y <= -3.25f || transform.position.y > 0)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y * -1, 0);
+            transform.position = new Vector3(transform.position.x, transform.position.y * 0.99f, 0);
         }
 
     }

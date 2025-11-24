@@ -22,6 +22,7 @@ public class Coin : MonoBehaviour
         if(whatDidIHit.tag == "Player")
         {
             gameManager.AddScore(1);
+            gameManager.PlaySound(3);
             Destroy(this.gameObject);
         }
     }

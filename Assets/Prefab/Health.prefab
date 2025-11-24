@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -2923763532751741459}
   - component: {fileID: -3489389566701750695}
   - component: {fileID: 5476979063258602196}
+  - component: {fileID: 807542677578996763}
   m_Layer: 0
   m_Name: Health
   m_TagString: Untagged
@@ -178,3 +179,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8038fba655aa0d45bd18cdc7710a1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
+--- !u!114 &807542677578996763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008422554712375158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bacf542fc74029e459d29e9b90f6ebd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Glider
+  goingUp: 1
+  speed: 5
