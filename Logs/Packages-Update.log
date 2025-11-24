@@ -58,3 +58,11 @@ The following packages were updated:
   com.unity.visualscripting from version 1.9.4 to 1.9.8
 The following packages were removed:
   com.unity.textmeshpro@3.0.7
+
+=== Sun Nov 23 21:37:05 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 2.10.0 to 2.10.2
