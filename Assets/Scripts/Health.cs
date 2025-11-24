@@ -22,6 +22,8 @@ public class Health : MonoBehaviour
         {
             whatDidIHit.GetComponent<PlayerController>().GainALife();
             Destroy(this.gameObject);
+            gameManager.PlaySound(4);
+
         }
     }
 }

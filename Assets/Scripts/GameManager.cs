@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     public AudioClip powerupSound;
     public AudioClip powerdownSound;
     public AudioClip coinSound;
+    public AudioClip healthSound;
 
     public TextMeshProUGUI livesText;
     public TextMeshProUGUI scoreText;
@@ -93,7 +94,7 @@ public class GameManager : MonoBehaviour
 
     void CreatePowerup()
     {
-        Instantiate(powerupPrefab, new Vector3(Random.Range(-horizontalScreenSize * 0.8f, horizontalScreenSize * 0.8f), Random.Range(-verticalScreenSize * 0.8f, verticalScreenSize * 0.8f), 0), Quaternion.identity);
+        Instantiate(powerupPrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.5f, Random.Range(-verticalScreenSize, verticalScreenSize / 2) * 0.5f, 0), Quaternion.identity);
     }
 
     void CreateSky()
@@ -147,6 +148,9 @@ public class GameManager : MonoBehaviour
                 break;
             case 3:
                 audioPlayer.GetComponent<AudioSource>().PlayOneShot(coinSound);
+                break;
+            case 4:
+                audioPlayer.GetComponent<AudioSource>().PlayOneShot(healthSound);
                 break;
         }
     }
